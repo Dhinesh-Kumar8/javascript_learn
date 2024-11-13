@@ -12,5 +12,6 @@ for(var i=0; i< veg.length; i++){
 var greet = "dhinesh";
 var bat = " kumar";
 console.log(greet.concat(bat))
+console.log("\n")
 var a=greet.toUpperCase();
 console.log(a);

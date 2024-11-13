@@ -25,3 +25,14 @@ RangeError
 AggregateError
 Error
 URIError*/
+
+/*null
+undefined
+empty
+*/
+var letter = 'abc';
+console.log(letter.match(/a/));/*[ 'a', index: 0, input: 'abc', groups: undefined ] */
+console.log(letter.match(/d/));
+
+var a = '';
+var b = "";
