@@ -58,3 +58,20 @@ for(var year=2022; year<=2025; year++){
         console.log("--------",month)
     }
 }
+console.log("\n")
+
+const colors = ['red','orange','yellow']
+for (var color of colors){
+    console.log((color));
+    }
+
+const car3 = {
+    speed: 100,
+    color: 'black',
+    model: 'bmw',
+    year: 2020,
+    varient: 'automatic',
+}
+console.log(Object.values(car3));
+console.log(Object.keys(car3));
+console.log(Object.entries(car3));
